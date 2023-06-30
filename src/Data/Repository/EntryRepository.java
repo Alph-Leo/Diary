@@ -13,7 +13,7 @@ public interface EntryRepository {
     Entry findEntryById(int id);
 
     List<Entry> viewAllEntries();
-    void deleteEntryById(int id)
+    void deleteEntryById(int id);
 
     void deleteAllEntries();
 }
